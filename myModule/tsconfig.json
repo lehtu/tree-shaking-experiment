@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "declarationDir": "./dist",
+        "outDir": "./dist/",
+        "allowSyntheticDefaultImports": true,
+        "lib": ["es6"],
+        "module": "es6",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "isolatedModules": false,
+        "preserveConstEnums": true,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "sourceMap": false,
+        "strict": true,
+        "target": "es6",
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true
+    },
+    "include": ["index.ts"],
+    "exclude": [
+        "node_modules",
+        "src/**/*.spec.ts",
+        "src/**/*.spec.tsx",
+        "src/**/*.test.ts",
+        "src/**/*.test.tsx",
+        "src/pages/_document.tsx",
+        "build",
+        "dist",
+        "package.json",
+        ".vscode",
+        "config",
+        "public",
+        "stats.html"
+    ]
+}

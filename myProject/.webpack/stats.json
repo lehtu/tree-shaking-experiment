@@ -1,0 +1,312 @@
+{
+  "errors": [
+  ],
+  "warnings": [
+  ],
+  "version": "4.42.0",
+  "hash": "93e2f80f419e2d09d09e",
+  "time": 2348,
+  "builtAt": 1583663206899,
+  "publicPath": "",
+  "outputPath": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/.webpack",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "main.js",
+      "size": 1058,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 99,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "b75d2d906e05dfc698fd",
+      "siblings": [
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "external \"my-module\"",
+          "name": "external \"my-module\"",
+          "index": 1,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+          "issuerId": 1,
+          "issuerName": "./src/index.ts",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+              "name": "./src/index.ts"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+              "module": "./src/index.ts",
+              "moduleName": "./src/index.ts",
+              "type": "harmony side effect evaluation",
+              "userRequest": "my-module",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+              "module": "./src/index.ts",
+              "moduleName": "./src/index.ts",
+              "type": "harmony import specifier",
+              "userRequest": "my-module",
+              "loc": "2:10-11"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+          "name": "./src/index.ts",
+          "index": 0,
+          "index2": 1,
+          "size": 57,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.ts",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "import a from 'my-module';\nconst b = a;\nexport default b;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.ts",
+          "reasons": [
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "external \"my-module\"",
+      "name": "external \"my-module\"",
+      "index": 1,
+      "index2": 0,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+      "issuerId": 1,
+      "issuerName": "./src/index.ts",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+          "name": "./src/index.ts"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+          "module": "./src/index.ts",
+          "moduleName": "./src/index.ts",
+          "type": "harmony side effect evaluation",
+          "userRequest": "my-module",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+          "module": "./src/index.ts",
+          "moduleName": "./src/index.ts",
+          "type": "harmony import specifier",
+          "userRequest": "my-module",
+          "loc": "2:10-11"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 1,
+      "identifier": "/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/cache-loader/dist/cjs.js??ref--4-0!/Users/d0500705/Projects/tree-shaking-experiment/myProject/node_modules/babel-loader/lib/index.js!/Users/d0500705/Projects/tree-shaking-experiment/myProject/src/index.ts",
+      "name": "./src/index.ts",
+      "index": 0,
+      "index2": 1,
+      "size": 57,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.ts",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is an entry point"
+      ],
+      "depth": 0,
+      "source": "import a from 'my-module';\nconst b = a;\nexport default b;"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [
+      ],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+  ]
+}
